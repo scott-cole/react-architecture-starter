@@ -61,12 +61,16 @@ export default function Dashboard() {
                   Explore the codebase to see best practices and patterns for
                   building scalable React applications.
                 </p>
-                <Button 
-                  className="w-full"
-                  onClick={() => window.open('https://github.com/scott-cole/react-architecture-starter', '_blank')}
+                <a 
+                  href="https://github.com/scott-cole/react-architecture-starter"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block w-full"
                 >
-                  View Documentation
-                </Button>
+                  <Button className="w-full">
+                    View Documentation
+                  </Button>
+                </a>
               </CardContent>
             </Card>
           </div>
