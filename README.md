@@ -13,7 +13,9 @@ An opinionated, production-ready frontend architecture starter for building scal
 npm install --legacy-peer-deps
 npm run dev
 ```
-Then open http://localhost:5173
+Then open **http://localhost:5173** in your browser.
+
+**Note**: The dev server runs with `--host` flag for WSL compatibility.
 
 **Detailed instructions:** See [WINDOWS_SETUP.md](./WINDOWS_SETUP.md)
 

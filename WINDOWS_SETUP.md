@@ -36,13 +36,15 @@ npm run dev
 
 You'll see output like:
 ```
-  VITE v5.2.0  ready in 234 ms
+  VITE v5.4.21  ready in 165 ms
 
   ➜  Local:   http://localhost:5173/
-  ➜  Network: use --host to expose
+  ➜  Network: http://192.168.x.x:5173/
 ```
 
-Open **http://localhost:5173** in your browser.
+**Open http://localhost:5173** in your Windows browser.
+
+**Note**: The `--host` flag makes the server accessible from Windows when running in WSL.
 
 ## Troubleshooting
 
