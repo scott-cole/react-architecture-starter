@@ -4,14 +4,21 @@ An opinionated, production-ready frontend architecture starter for building scal
 
 ## 🚀 Quick Start
 
-**For Windows users (PowerShell/CMD):**
+### Windows Users
+
+**Easiest method** - Double-click `quick-start.bat` file to automatically install and run!
+
+**Or using PowerShell/CMD:**
 ```powershell
 npm install --legacy-peer-deps
 npm run dev
 ```
 Then open http://localhost:5173
 
-**For macOS/Linux users:**
+**Detailed instructions:** See [WINDOWS_SETUP.md](./WINDOWS_SETUP.md)
+
+### macOS/Linux Users
+
 ```bash
 npm install --legacy-peer-deps
 npm run dev
