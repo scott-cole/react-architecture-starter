@@ -2,6 +2,21 @@
 
 An opinionated, production-ready frontend architecture starter for building scalable React applications. This project demonstrates best practices and patterns for modern React development.
 
+## 🚀 Quick Start
+
+**For Windows users (PowerShell/CMD):**
+```powershell
+npm install --legacy-peer-deps
+npm run dev
+```
+Then open http://localhost:5173
+
+**For macOS/Linux users:**
+```bash
+npm install --legacy-peer-deps
+npm run dev
+```
+
 ## 🚀 Features
 
 - **Scalable Structure** - Feature-based architecture with clear separation of concerns
@@ -59,25 +74,39 @@ src/
 - Node.js 18 or higher
 - npm, yarn, or pnpm
 
-### Setup
+### Windows Users (Recommended)
 
-```bash
+If you're on Windows, use PowerShell or Command Prompt (not WSL):
+
+```powershell
 # Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/scott-cole/react-architecture-starter.git
 cd react-architecture-starter
 
 # Install dependencies
-npm install
+npm install --legacy-peer-deps
 
 # Start development server
 npm run dev
 ```
 
-**Note**: If you encounter peer dependency conflicts with Storybook, you can install with:
+Then open http://localhost:5173 in your browser.
+
+### macOS/Linux Users
 
 ```bash
+# Clone the repository
+git clone https://github.com/scott-cole/react-architecture-starter.git
+cd react-architecture-starter
+
+# Install dependencies
 npm install --legacy-peer-deps
+
+# Start development server
+npm run dev
 ```
+
+**Note**: The `--legacy-peer-deps` flag is used to resolve peer dependency conflicts with Storybook packages.
 
 ## 🎯 Available Scripts
 
